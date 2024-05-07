@@ -1,0 +1,32 @@
+.login__area h1 {
+	margin: 0;
+}
+.login__area > p {
+	margin: 0;
+	color: gray;
+	font-weight: 500;
+}
+.login__area > form {
+	margin-top: 2rem;
+}
+.login__area > form input {
+	margin: 0.35rem 0;
+	width: calc(100% - 2rem);
+}
+.login__area form p {
+	margin: 1rem auto;
+	font-size: 0.9rem;
+}
+.login__area .signup__link {
+	cursor: pointer;
+	margin: 0.25rem;
+	font-weight: 600;
+	-webkit-transition: .25s ease-out;
+	-moz-transition: .25s ease-out;
+	-ms-transition: .25s ease-out;
+	-o-transition: .25s ease-out;
+	transition: .25s ease-out;
+}
+.login__area .signup__link:hover {
+	color: #219ebc;
+}

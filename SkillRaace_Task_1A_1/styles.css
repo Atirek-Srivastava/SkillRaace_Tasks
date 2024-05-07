@@ -1,0 +1,161 @@
+/* Global Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Platypi:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Platypi", serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    padding: 20px 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-image: url('main.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    animation: fadeIn 1s ease-out;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.hero .btn-primary {
+    font-size: 1.2rem;
+    padding: 10px 30px;
+}
+
+.hero .btn-primary:hover {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+/* About Section Styles */
+.about {
+    padding: 50px 0;
+}
+
+.about img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.about img:hover {
+    transform: scale(1.1);
+}
+
+/* Services Section Styles */
+.services {
+    padding: 50px 0;
+}
+
+.service-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.service-item:hover {
+    transform: translateY(-5px);
+}
+
+/* Contact Section Styles */
+.contact {
+    padding: 50px 0;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+}
+
+.contact form input:focus,
+.contact form textarea:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.contact form .btn-primary {
+    padding: 10px 30px;
+}
+
+.contact form .btn-primary:hover {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .about,
+    .services,
+    .contact {
+        padding: 30px 0; /* Adjust padding on smaller screens */
+    }
+}

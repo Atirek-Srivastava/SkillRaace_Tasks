@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">MyWebsite</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Services
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Web Design</a></li>
+                        <li><a class="dropdown-item" href="#">Graphic Design</a></li>
+                        <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">All Services</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section id="hero" class="hero-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2 text-center">
+                <div class="hero-section-overlay">
+                    <h1 class="display-4">Welcome to MyWebsite</h1>
+                    <p class="lead">Explore our services and contact us today!</p>
+                    <a href="#contact" class="btn btn-primary btn-lg">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2 text-center">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non odio nec mi pharetra fringilla. Sed aliquet libero sit amet eleifend feugiat. Duis non tellus sit amet metus rhoncus consequat. Morbi auctor molestie turpis, vitae euismod ipsum.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="services" class="section bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2 text-center">
+                <h2>Our Services</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="service-item">
+                            <i class="bi bi-laptop"></i>
+                            <h3>Web Design</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service-item">
+                            <i class="bi bi-palette"></i>
+                            <h3>Graphic Design</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service-item">
+                            <i class="bi bi-bar-chart"></i>
+                            <h3>Digital Marketing</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2 text-center">
+                <h2>Contact Us</h2>
+                <p>Have a question or want to discuss a project? Reach out to us!</p>
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Your Name">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Your Email">
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

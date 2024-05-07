@@ -1,0 +1,90 @@
+/* Custom Styles */
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Container Styles */
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.container:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading Styles */
+h2 {
+    font-size: 28px;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Form Label Styles */
+.form-label {
+    font-weight: bold;
+    color: #555;
+}
+
+/* Form Input Styles */
+.form-control {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Submit Button Styles */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Form Validation Styles */
+.valid-feedback {
+    display: block;
+    color: #28a745;
+    animation: fadeIn 0.5s ease;
+}
+
+.invalid-feedback {
+    display: block;
+    color: #dc3545;
+    animation: fadeIn 0.5s ease;
+}
+
+/* Optional: Custom Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
